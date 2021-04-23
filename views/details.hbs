@@ -1,0 +1,20 @@
+<div class="movies_details_container">
+
+  <div class="movies_details_image_container">
+    <img class="movies_card_image" src="{{this.image}}" alt="movie cover">
+  </div>
+
+  <div class="movies_card_unity">
+    <a href="/movies/">Go back</a>
+    <h3>{{this.title}}</h3>
+    <h4>Director: {{this.director}}</h4>
+    <ul>
+      <h4>Stars</h4>
+      {{#each stars}}
+      <li> {{this}}</li>
+      {{/each}}
+    </ul>
+    <p>{{this.description}}</p>
+    <p>{{this.showtimes}}</p>
+  </div>
+</div>

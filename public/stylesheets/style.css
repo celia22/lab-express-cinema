@@ -1,0 +1,97 @@
+/************ HOME VIEW ************/
+
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-image: url(../images/cinema.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: none;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.index_home_page_container > h1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  color: white;
+  font-size: 7rem;
+}
+
+.index_home_page_container_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.btn {
+  color: #00b7ff;
+  font-size: 1rem;
+  margin-right: 270px;
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 40px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+/************ MOVIES VIEW ************/
+
+.movies_view_container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: none;
+}
+
+.movies_view_container > h1 {
+  margin: 50px 50px 0 50px;
+}
+
+.movies_view_container > h3 {
+  margin: 50px;
+}
+
+.movies_card_container {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.movies_card_container > ul {
+  margin: 50px;
+}
+
+.movies_card_image {
+  width: 250px;
+  height: 350px;
+}
+
+.movies_card_title {
+  display: flex;
+  justify-content: center;
+}
+
+.movies_card_link {
+  display: flex;
+  justify-content: center;
+}
+
+/************ MOVIE DETAILS VIEW ************/
+
+.movies_details_container {
+  display: flex;
+  background-color: white;
+  padding: 100px;
+  height: 100vh;
+}
+
+.movies_card_unity {
+  padding: 30px 100px;
+}
